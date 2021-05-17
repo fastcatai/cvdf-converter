@@ -1,0 +1,28 @@
+# separate annotation values
+delimiter: ' '
+# separator between lines
+lineTerminator: "\r\n"
+# ignoring empty classes config
+ignoreEmptyClass: false
+classAtEnd: true
+defaultClass: 'unk'
+# defines if values should be quoted if there are spaces or delimiters within the string
+quoting: true
+quoteChar: '"'
+# if image path is part of the annotation value
+withPath: false
+pathAtEnd: false
+defaultPath: ''
+# if annotations of an image are saved in a single line
+annotationPerLine: true
+annotationDelimiter: ' '
+# if image annotations are saved in separate file
+filePerImage: true
+outputFolder: /cvdfc/
+fileExtension: txt
+# if all images are saved in a single file
+outputFile: /cvdfc/all.txt
+# output format for specific annotations
+boundingBox: relativeCenter
+# maps a label to a specified value
+classMapping:
